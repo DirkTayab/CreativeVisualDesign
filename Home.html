@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
@@ -28,11 +29,11 @@
               <li><a href="./Contact.html">Contact</a></li>
             </ul>
           </nav>
-          <!-- <div class="toggle__menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div> -->
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
@@ -48,7 +49,7 @@
               eos veritatis aliquid fuga dolor sapiente vitae, corrupti cumque!
               Autem, illo?
             </p>
-            <a href="" class="btn bg-primary">Send Message</a>
+            <a href="" class="btn bg-primary">Learn More</a>
           </div>
           <div class="homebanner__img">
             <img src="./img/Hero.png" alt="" />
@@ -123,7 +124,7 @@
         <div class="aboutme__wrapper">
           <div class="aboutme__img">
             <img src="/img/headshot/1.jpg" alt="" />
-            <img src="./img/Ellipse 1.png" alt="">
+            <img src="./img/Ellipse 1.png" alt="" />
           </div>
           <div class="aboutme--text">
             <h3>ABOUT ME</h3>
@@ -165,34 +166,40 @@
           </div>
           <div class="trends__content">
             <div class="card">
+              <img src="./img/art/1.jpg" alt="" />
+              <div class="card__info">
+                <h4>DESIGNING FOR A CAUSE</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit sequi eveniet quo qui vitae maiores ea error similique
+                  eius facilis.
+                </p>
+                <a href="">Read more...</a>
+              </div>
+            </div>
+            <div class="card">
               <img src="./img/art/2.jpg" alt="" />
-              <h4>DESIGNING FOR A COST</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt earum recusandae veniam, porro rem repellat consectetur
-                explicabo quasi atque nemo.
-              </p>
-              <p1>Read more...</p1>
+              <div class="card__info">
+                <h4>DESIGNING FOR A CAUSE</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit sequi eveniet quo qui vitae maiores ea error similique
+                  eius facilis.
+                </p>
+                <a href="">Read more...</a>
+              </div>
             </div>
             <div class="card">
               <img src="./img/art/3.jpg" alt="" />
-              <h4>VECTOR & GRAPHIC DESIGN</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt earum recusandae veniam, porro rem repellat consectetur
-                explicabo quasi atque nemo.
-              </p>
-              <p1>Read more...</p1>
-            </div>
-            <div class="card">
-              <img src="./img/art/4.jpg" alt="" />
-              <h4>SOCIAL MEDIA SPECIALIST</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt earum recusandae veniam, porro rem repellat consectetur
-                explicabo quasi atque nemo.
-              </p>
-              <p1>Read more...</p1>
+              <div class="card__info">
+                <h4>DESIGNING FOR A CAUSE</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit sequi eveniet quo qui vitae maiores ea error similique
+                  eius facilis.
+                </p>
+                <a href="">Read more...</a>
+              </div>
             </div>
           </div>
         </div>
@@ -210,30 +217,45 @@
       </div>
     </section>
     <!-- Footer -->
-     <section class="footer">
+    <section class="footer">
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__icons">
             <ul>
-              <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
-              <li><a href=""><i class="fa-brands fa-square-x-twitter"></i></a></li>
-              <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-              <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-              <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+              <li>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </li>
             </ul>
           </div>
           <div class="footer__address">
             <h5>
-              SAMPAGUITA VILLAGE, BRGY. INOCENCIO, TRECE MARTIRES CITY, CAVITE 4109
+              SAMPAGUITA VILLAGE, BRGY. INOCENCIO, TRECE MARTIRES CITY, CAVITE
+              4109
             </h5>
           </div>
           <div class="footer__cr">
-            <h5>
-              ©Creative Visual Designs | Dirk Tayab
-            </h5>
+            <h5>©Creative Visual Designs | Dirk Tayab</h5>
           </div>
         </div>
       </div>
-     </section>
+    </section>
+    <!-- Scripts -->
+    <script src="./js/toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
